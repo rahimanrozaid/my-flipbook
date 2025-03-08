@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Flipbook</title>
+    <script src="https://cdn.jsdelivr.net/npm/dearflip@2.0.0/js/dearflip.min.js"></script>
+</head>
+<body>
+    <div id="flipbook" class="dflip" data-pdf="https://drive.google.com/file/d/1_lKZi6oRCHRN9hOOOtSUrfWYilcnYBi1/view?usp=sharing"></div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            new DFLIP.Book(document.getElementById("flipbook"));
+        });
+    </script>
+</body>
+</html>
